@@ -1,1 +1,245 @@
-/* Your styles go here */
+/* CSS Document */
+
+
+/* home page */
+.menu { margin-top:30px; margin-left:300px; position:absolute; width:1680px;}
+.menu u1{
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none; border-color:#CCCCCC;
+	
+}
+.main{ background-color:#CCCCCC; position:absolute; width:1310px; height:80px;
+}
+
+.menu ul{
+	margin: 0;
+	padding:0px;
+	float: left;
+	width: 60%;
+	background: #cccccc;
+	border-top-width: 0px;
+	border-right-width: 0;
+	border-bottom-width: 0px;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000
+}
+
+.menu ul li{
+display: inline;
+}
+
+.menu ul li a{
+	float: left; color:#FFFFFF;
+	
+	padding: 5px 11px;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+
+.menu ul li a:visited{
+color: #FFFFFF;
+}
+
+.menu ul li a:hover, .h_mnu_01 ul li .selected{
+	color: black; !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: white;
+}
+#bot{position:absolute; border:inherit; background-color:#999999; padding:25px; font-size:20px;
+margin-top:0px; height:110px; width:1260px; border-top:blue; border-style:groove; 
+ }
+/*trends page*/
+.fav{position:absolute; border:inherit; background-color:#999999;
+margin-top:30px; height:550px; width:1200px; border-top:blue; border-style:groove; margin-left:60px; margin-right:20px;}
+input[type=submit]{color:#FF0000; font-size:20px; border-radius:0px;
+cursor:pointer; margin-left:150px; margin-top:-15px;
+}
+ul li a:hover, .h_mnu_01 ul li .selected{ color:#0000FF;!important;
+	padding-top: 5px;
+	padding-bottom: 5px;}
+	ul li a{color:black;
+	 text-decoration:none; padding:10px; list-style:inherit;
+	
+}
+.fav2{ position:absolute; margin-top:-480px;}
+.fav2 ul li a:hover, .h_mnu_01 ul li .selected{ color:#FFFFFF;!important;
+	padding-top: 5px;
+	padding-bottom: 5px;}
+/*regist page*/
+input[type=text]{color:black; width:25%;border-style:solid; background-color:#CCCCCC; 
+
+}
+input[type=submit]{ background-color:white; color:#FF0000; font-size:20px; border-radius:7px;
+cursor:pointer;
+}
+input[type=submit]:hover {
+	color:blue; text-decoration:underline;
+	}
+
+.menu01{
+	width: 11%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none; margin-top:5px;
+}
+
+.menu01 ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+	background: #004080;
+	border-top-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000
+}
+
+.menu01 ul li{
+display: inline;
+}
+
+.menu01 ul li a{
+	float: left;
+	color: #FFFFFF;
+	padding: 5px 11px;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+
+.menu011 ul li a:visited{
+color: #FFFFFF;
+}
+
+.menu01 ul li a:hover, .h_mnu_01 ul li .selected{
+	color: #FFFF00 !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #008000;
+}
+.rcent{ background-color:white; position:absolute; width:50%; height:630px; margin-left:350px; box-shadow:5px 5px 5px 5px black; border-radius:6px 6px 6px 6px;}
+.fav{position:absolute; border:inherit; background-color:#999999;
+margin-top:30px; height:550px; width:1200px; border-top:blue; border-style:groove; margin-left:60px; margin-right:20px; background-image:url(photos/pi.jpg);}
+input[type=submit]{color:#FF0000; font-size:20px; border-radius:0px;
+cursor:pointer; margin-left:150px; margin-top:-15px;
+}
+/*about*/
+.about {float:left; padding-left:100px; margin:0;color: #FFFFFF;background: #0000A0; width:1132px; clear:both; position:
+absolute; margin-left:50px; box-shadow:5px 5px 5px 5px black; border-radius:6px 6px 6px 6px; }
+.about  a, .pd_menu_01 a:visited {
+font-family:Arial, Helvetica, sans-serif;
+font-style:normal;
+font-weight:bold;
+font-size:12px;
+color: #FFFFFF;
+background-color: #0000A0;
+text-decoration: none;
+}
+.about ul {list-style-type:none;padding:0; margin:0;}
+.about ul li {float:left; position:relative; z-index:auto !important ; z-index:1000 ; border-right:solid 1px #004080; border-left:solid 1px #004080;}
+.about ul li a {color: #FFFFFF;background: #0000A0;float:none !important ; float:left ; display:block; height:30px; line-height:30px; padding:0 10px 0 10px; text-decoration:none; }
+.about ul li ul {display:none; border:none;color: #FFFFFF;background: #0000A0; width:1px}
+.about ul li:hover a {background-color:#008000; text-decoration:none; color:#FFFF00;}
+.about ul li:hover ul {display:block;  position:absolute; z-index:999; top:29px; margin-top:1px; left:0;}
+.about ul li:hover ul li a {display:block; width:12em; height:auto; line-height:1.3em; margin-left:-1px; padding:5px 10px 5px 10px; border-left:solid 1px #004080; border-bottom: solid 1px #004080; background-color:#0000FF;  color:#FFFFFF;}
+.about ul li:hover ul li a:hover {background-color:#CA0000; text-decoration:none;color:#FFFF00;}
+.about ul li a:hover {background-color:#008000; text-decoration:none;color:#FFFF00;}
+.about ul li a:hover ul {display:block; width:12em; position:absolute; z-index:999; top:29px; left:0; }
+.about ul li ul li a:visited { background-color:#0000FF;  color:#FFFFFF;} 
+.about ul li a:hover ul li a {display:block; width:12em; height:1px; line-height:1.3em; padding:4px 16px 4px 16px; border-left:solid 1px #004080; border-bottom: solid 1px #004080; background-color:#0000FF;  color:#FFFFFF;} 
+.about ul li a:hover ul li a:hover {background-color:#CA0000; text-decoration:none;color:#FFFF00;}
+#about2{ position:absolute; background-color:#FFFFFF; width:46%; height:100%; margin-top:0px; margin-left:50px; font-size:15px;box-shadow:5px 5px 5px 5px black; border-radius:6px 6px 6px 6px; }
+
+#about3{ position:absolute; background-color:#FFFFFF; width:45%; height:100%; margin-left:50%; margin-top:0px; font-size:18px;box-shadow:5px 5px 5px 5px black; border-radius:6px 6px 6px 6px; }
+
+/*favorite songs*/
+.musics{position:absolute; height:400px; width:920px; background-image:url(photos/pi.jpg); margin-top:85px;}
+.menu1 { margin-top:30px; margin-left:300px; position:absolute; width:1680px;}
+.menu1 u1{
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none; border-color:#CCCCCC;
+	
+}
+.main1{ background-color:#CCCCCC; position:absolute; width:1310px; height:80px;
+}
+
+.menu1 ul{
+	margin: 0;
+	padding:0px;
+	float: left;
+	width: 60%;
+	background: #cccccc;
+	border-top-width: 0px;
+	border-right-width: 0;
+	border-bottom-width: 0px;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000
+}
+
+.menu1 ul li{
+display: inline;
+}
+
+.menu1 ul li a{
+	float: left; color:#FFFFFF;
+	
+	padding: 5px 11px;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+
+.menu1 ul li a:visited{
+color: #FFFFFF;
+}
+
+.menu1 ul li a:hover, .h_mnu_01 ul li .selected{
+	color: black; !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: white;
+}
+#song1{position:absolute; border:inherit; background-color:#999999; padding:25px; font-size:20px;
+margin-top:480px; height:110px; width:1260px; border-top:blue; border-style:groove; 
+ }
+.phot1{position:absolute; margin-top:85px; margin-left:910px;}
+
+
